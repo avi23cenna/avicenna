@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: goldenrod;
+    padding: 18px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    max-width: 1510px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 420px;
+}
+
+
+.about{
+    font-size: 0.6cm;
+    margin: 4px;
+    padding: 1px;
+}
+
+section{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0.4cm;
+}
+
+#nome{
+    width: 410px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 0.4cm;
+    color: black;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+}
+
+#email{
+    width: 410px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 0.4cm;
+    color: black;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+}
+
+#comentario{
+    width: 410px;
+    height: 90px;
+    border-radius: 5px;
+    font-size: 0.4cm;
+    color: black;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+}
+
+#enviar{
+    border-radius: 30px;
+    width: 160px;
+    color: white;
+    background-color: #b28c1b;
+    font-size: 0.4cm;
+    margin: 6px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#enviar:hover{
+    background-color: #ffffff;
+    color: #b28c1b;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .header-grid {
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    .search-bar {
+        margin-top: 10px;
+    }
+
+    .menu {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .search-bar input[type="text"] {
+        width: 150px;
+    }
+}
+
+#butão{
+    margin: 5px;
+}
+

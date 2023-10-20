@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avicenna 23</title>
+    <link rel="stylesheet" href="produtos.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header>
+
+        <div class="header-grid">
+            <div class="logo">
+                <a href="index.html"><img src="img/Logo.jpg" alt=""></a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Pesquisar">
+                <button type="submit">Buscar</button>
+            </div>
+            <div class="icons-container">
+                <div class="cart-icon">
+                   <a href="aviso.html"><i class="fas fa-shopping-cart"></i></a> 
+                </div>
+                <div class="user-icon">
+                  <a href="site-tcc/index-login.html"><i class="fas fa-user"></i></a>  
+                </div>
+            </div>
+        </div>
+        
+        <nav class="menu">
+            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="produtos.html">Produtos</a></li>
+                <li><a href="about.html">Sobre nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+    
+    <main>
+
+        <div class="opitions">
+
+            <ul>
+                <h3>Aromas</h3>
+                <li><input type="radio" id="aroma1" name="3" value="1" onclick="aromaDoce()"> <label for="aroma1">Doce</label> </li>
+                <li><input type="radio" id="aroma2" name="3" value="2" onclick="aromaAmadeirado()"> <label for="aroma2">Amadeirado</label> </li>
+                <li><input type="radio" id="aroma3" name="3" value="3" onclick="aromaCitrico()"> <label for="aroma3">Citrico</label> </li>
+            </ul>
+
+            <ul>
+                <h3>Frascos</h3>
+                <li><input type="radio" id="frasc1" name="1" value="1" onclick="valor1()"> <label for="frasc1">Frasco 1</label> </li>
+                <li><input type="radio" id="frasc2" name="1" value="2" onclick="valor2()"> <label for="frasc2">Frasco 2</label> </li>
+                <li><input type="radio" id="frasc3" name="1" value="3" onclick="valor3()"> <label for="frasc3">Frasco 3</label> </li>
+            </ul>
+
+            <ul>
+                <h3>Cores</h3> 
+                <li><input type="radio" id="cor1" name="2" value="1" onclick="escolhaDourado()"> <label for="cor1">Dourado</label> </li>
+                <li><input type="radio" id="cor2" name="2" value="2" onclick="escolhaAzul()"> <label for="cor2">Azul</label> </li>
+                <li><input type="radio" id="cor3" name="2" value="3" onclick="escolhaVermelho()"> <label for="cor3">Vermelho</label> </li>
+                <li><input type="radio" id="cor4" name="2" value="4" onclick="escolhaVerde()"> <label for="cor4">Verde</label> </li>
+                <li><input type="radio" id="cor5" name="2" value="5" onclick="escolhaRosa()"> <label for="cor5">Rosa</label> </li>
+                <li><input type="radio" id="cor6" name="2" value="6" onclick="escolhaMarrom()"> <label for="cor6">Marrom</label> </li>
+                
+            </ul>
+
+            
+
+        </div>
+
+        <div class="result">
+
+            <h3>Pré-visualização</h3>
+
+            <div id="imgPerfum" class="ImgPerfum">
+                <img id="perfum" src="img/fundoCustom.png" alt=""> 
+            </div>
+
+            <div class="quant-result">
+
+                <button id="but-quant" onclick="abaixaQtd()">-</button>
+                <p id="quant-porções"></p>
+                <button id="but-quant" onclick="aumentaQtd()">+</button>
+
+            </div>
+
+            <p id="result-final">R$: 00,00</p>
+
+            <a href="aviso.html"><button id="add">Adicionar ao Carrinho</button></a>
+
+            <a href="aviso.html"><p>cancelar o pedido</p></a>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="mapa_contato">
+
+        
+
+        <div class="mapa">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7316.980524003818!2d-46.46676212527888!3d-23.51486294459782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce613b6b540175%3A0x793dfafb55c598b1!2sR.%20Jo%C3%A3o%20Tavares%2C%2027%20-%20Limoeiro%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008051-380!5e0!3m2!1spt-PT!2sbr!4v1695739245602!5m2!1spt-PT!2sbr" width="100%" height="auto" style="border:10px solid #b28c1b;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    <div class="contact-info">
+            <p>Endereço: Rua João Tavares, 27</p>
+            <p>Telefone: (11)2025-6712</p>
+            <p>Email: avicenna2323@gmail.com</p>
+        </div>
+    </div>
+
+        <div class="copyright">
+            <p>Todos os direitos reservados à Avicenna 23 desde &copy;2023
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/e1a7f0b418.js" crossorigin="anonymous"></script>
+    <script src="script-produtos.js"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 80px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    .header-grid {
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    .search-bar {
+        margin-top: 10px;
+    }
+
+    .menu {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .search-bar input[type="text"] {
+        width: 150px;
+    }
+}
+
+.opitions{
+display: flex;
+flex-direction: column;
+
+width: 30%;
+text-align: center;
+
+font-family: inter;
+padding-bottom: 0;   
+}
+
+#perfum{
+    width: 45%;
+    height: 80%;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quant-result{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#but-quant{
+    width: 25px;
+    margin: 20px;
+    border-radius: 4px;
+    color: #b28c1b;
+    font-size: 0.4cm;
+    background-color: white;
+    border-color: #b28c1b;
+    border: 2px solid;
+}
+
+#but-frasc{
+    margin: 3px;
+    border-radius: 4px;
+    color: #b28c1b;
+    font-size: 0.4cm;
+    background-color: white;
+    border-color: #b28c1b;
+    border: 2px solid;
+}
+
+.opitions ul{
+    list-style: none;
+    font-size: 0.5cm;
+    padding: 0;
+    margin: 0;
+    text-align: start;
+    width: 100%;
+    margin-bottom: 0;
+    background-color: black;
+    margin: 10px;
+    border: #b28c1b 2px solid;
+}
+
+.opitions ul li{
+    cursor: pointer;
+    background-color: #b28c1b;
+    border: black 1px solid;
+    color: white;
+}
+
+.opitions input{
+    color: #b28c1b;
+
+}
+
+h3{
+    font-size: 0.6cm;
+    text-align: center;
+}
+
+#imgPerfum{
+    width: 400px;
+    height: 400px;
+    border: 10px solid;
+    border-radius: 25px;
+    border-color: #b28c1b;
+}
+
+#add{
+    border-radius: 10px;
+    color: white;
+    background-color: #b28c1b;
+    border-color: #b28c1b;
+    font-size: 0.4cm;
+    width: 200px;
+    height: 40px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+h3{
+    color: #b28c1b;
+}
+
+p{
+    color: #b28c1b;
+}
+
+.ImgPerfum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add:hover{
+    background-color: #ddab15;
+
+}
+
+
