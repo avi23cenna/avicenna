@@ -99,7 +99,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #000000;
-    height: 45px;
+    height: auto;
     margin-top: -30px;
     padding-bottom: 10px;
 }
@@ -108,12 +108,12 @@ header {
     list-style: none;
     padding: 0;
     margin: 0;
-    
+    display: flex;
 }
 
 .menu ul li {
     display: inline-block;
-    margin-right: 10px;
+    margin: 8px;
 }
 
 .menu ul li a {
@@ -322,6 +322,11 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .header-grid {
         grid-template-columns: auto;
         justify-content: center;
