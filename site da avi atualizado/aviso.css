@@ -309,6 +309,28 @@ footer {
     .menu {
         margin-top: 20px;
     }
+
+    .preto_texto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+    background-color: #000000;
+    height: 500px;
+    color: #b28c1b;
+    text-align: center;
+    text-justify: center;
+    font-family: Inter;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-bottom: 5px solid white;
+    gap: 7px;
+        
+    
+    }
 }
 
 @media screen and (max-width: 480px) {

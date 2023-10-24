@@ -11,6 +11,7 @@ body {
 main {
     display: flex;
     flex-direction: column;
+   
     background-color: black;
     color: goldenrod;
     padding: 18px;
@@ -20,6 +21,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     height: 420px;
+    transition: 0.5s;
 }
 
 
@@ -45,6 +47,7 @@ section{
     margin: 5px;
     padding: 10px;
     border: none;
+    transition: .5s;
 }
 
 #email{
@@ -56,6 +59,7 @@ section{
     margin: 5px;
     padding: 10px;
     border: none;
+    transition: .5s;
 }
 
 #comentario{
@@ -67,6 +71,7 @@ section{
     margin: 5px;
     padding: 10px;
     border: none;
+    transition: .5s;
 }
 
 #enviar{
@@ -79,6 +84,7 @@ section{
     border: none;
     transition: 0.5s;
     cursor: pointer;
+    transition: .5s;
 }
 
 #enviar:hover{
@@ -102,11 +108,65 @@ section{
     .menu {
         margin-top: 20px;
     }
+
+    #nome {
+        width: 332px;
+        height: 25px;
+        border-radius: 5px;
+        font-size: 0.4cm;
+        color: black;
+        margin: 5px;
+        padding: 10px;
+        border: none;
+    }
+
+    #email {
+        width: 332px;
+        height: 25px;
+        border-radius: 5px;
+        font-size: 0.4cm;
+        color: black;
+        margin: 5px;
+        padding: 10px;
+        border: none;
+    }
+
+    #comentario {
+        width: 332px;
+        height: 90px;
+        border-radius: 5px;
+        font-size: 0.4cm;
+        color: black;
+        margin: 5px;
+        padding: 10px;
+        border: none;
+    }
+
+    main{
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
     .search-bar input[type="text"] {
         width: 150px;
+    }
+
+    #nome {
+        width: 100%;
+
+    }
+
+    #email {
+        width: 100%;
+        
+    }
+
+    #comentario {
+        width: 100%;
+        
     }
 }
 
