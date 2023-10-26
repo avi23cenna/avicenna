@@ -290,11 +290,17 @@ main {
         margin-top: 20px;
     }
 
+    .search-bar input[type="text"] {
+        width: 150px;
+        height: 600px;
+    }
+
     
 }
 
 @media screen and (max-width: 480px) {
     .search-bar input[type="text"] {
         width: 150px;
+        height: 60px;
     }
 }
