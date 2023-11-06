@@ -48,6 +48,8 @@ section{
     padding: 10px;
     border: none;
     transition: .5s;
+    font-family: inter;
+    font-weight: 800;
 }
 
 #email{
@@ -60,18 +62,22 @@ section{
     padding: 10px;
     border: none;
     transition: .5s;
+    font-family: inter;
+    font-weight: 800;
 }
 
 #comentario{
+    font-size: 0.4cm;
     width: 410px;
     height: 90px;
     border-radius: 5px;
-    font-size: 0.4cm;
     color: black;
     margin: 5px;
     padding: 10px;
     border: none;
     transition: .5s;
+    font-family: inter;
+    font-weight: 800;
 }
 
 #enviar{
@@ -85,6 +91,8 @@ section{
     transition: 0.5s;
     cursor: pointer;
     transition: .5s;
+    font-family: inter;
+    font-weight: 800;
 }
 
 #enviar:hover{
